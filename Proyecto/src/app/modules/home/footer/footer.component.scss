@@ -1,5 +1,11 @@
+.bg-blue {
+  background-color: white;
+
+  /* Puedes ajustar el color de fondo según tus preferencias */
+}
+
 h1 {
-    color: #333; /* Color del texto (puedes utilizar un color personalizado) */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
     font-family: Georgia, Round, Bold, italic; /* Fuente del texto */
     font-size: 29px; /* Tamaño de fuente en píxeles */
     font-weight: bold; /* Peso de la fuente (negrita) */
@@ -17,7 +23,7 @@ h1 {
 .contenedor-parrafo-imagen {
     display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
     align-items: center; /* Centra verticalmente los elementos */
-    color: #333; /* Color del texto (puedes utilizar un color personalizado) */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
     font-family: Georgia, Round, Bold, italic; /* Fuente del texto */
     font-size: 20px; /* Tamaño de fuente en píxeles */
   }
@@ -25,7 +31,7 @@ h1 {
   .texto-parrfo {
     flex: 1; /* El párrafo ocupa el espacio restante en el contenedor */
     margin-right: 6px; /* Espacio entre el párrafo y la imagen (ajusta según tus necesidades) */
-    color: #333; /* Color del texto (puedes utilizar un color personalizado) */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
     font-family: Georgia, Round, Bold, italic;/* Fuente del texto */
     font-size: 20px; /* Tamaño de fuente en píxeles */
     
@@ -34,7 +40,7 @@ h1 {
     flex: 1; /* El párrafo ocupa el espacio restante en el contenedor */
     margin-right: 5px; /* Espacio entre el párrafo y la imagen (ajusta según tus necesidades) */
     text-align: right; /* Alinea el texto a la derecha */
-    color: #333; /* Color del texto (puedes utilizar un color personalizado) */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
     font-family: Georgia, Round, Bold, italic;/* Fuente del texto */
     font-size: 20px; /* Tamaño de fuente en píxeles */
   }
