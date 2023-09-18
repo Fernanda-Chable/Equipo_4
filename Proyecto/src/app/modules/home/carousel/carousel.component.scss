@@ -1,26 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400&display=swap');
+
+*{
+  font-family: 'Archivo', sans-serif;
+}
 
 .tamanio-imagen{
     height: 150px;
     width: 100px;
     border-radius: 10px;
-    
+
 
 }
 .bg-blue {
     background-color: black;
-    
+
     /* Puedes ajustar el color de fondo según tus preferencias */
   }
   .titulo {
-color: yellow; /* Cambia el color a tu preferencia */
-  font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+  color: yellow; /* Cambia el color a tu preferencia */
   font-size: 32px; /* Cambia el tamaño a tu preferencia */
   text-align: center; /* Alinea el título al centro */
   margin-top: 20px; /* Espaciado superior */
   }
   .titulo1 {
     color: yellow; /* Cambia el color a tu preferencia */
-      font-family:  Times, serif; /* Cambia la tipografía a tu preferencia */
       font-size: 20px; /* Cambia el tamaño a tu preferencia */
       text-align: center; /* Alinea el título al centro */
       margin-top: 20px; /* Espaciado superior */
