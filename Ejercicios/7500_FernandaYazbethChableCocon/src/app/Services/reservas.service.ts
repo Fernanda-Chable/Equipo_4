@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {IReservas,Response} from '../shared/data';
+import {IReservas,} from '../shared/data'; //{IReservas,Response}
 import {Observable} from 'rxjs';
 
 @Injectable({
