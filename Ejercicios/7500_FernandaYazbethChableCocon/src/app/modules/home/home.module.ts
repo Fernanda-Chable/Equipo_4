@@ -29,7 +29,8 @@ import { CalculadoraComponent } from './calculadora/calculadora.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    ReservasComponent,
   ]
 })
   

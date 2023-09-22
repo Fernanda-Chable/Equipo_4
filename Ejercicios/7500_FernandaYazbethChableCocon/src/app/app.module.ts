@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculadoraComponent } from './modules/home/calculadora/calculadora.component';
 
+
 @NgModule({
   declarations: [
     AppComponent
