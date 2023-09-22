@@ -6,6 +6,8 @@ import { HomeComponent } from '../home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 
 @NgModule({
@@ -13,11 +15,13 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     HeaderComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    CalculadoraComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    FormsModule
   ],
   exports:[
     HomeComponent,

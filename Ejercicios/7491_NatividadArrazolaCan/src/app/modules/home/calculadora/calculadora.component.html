@@ -1,0 +1,31 @@
+
+
+<div class="container justify-center mt-4">
+  <form>
+    <div class="form-grup">
+      <label>Operando A</label>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Escribe operando A"
+        [(ngModel)]="operandoA"
+        name="operandoA"
+      />
+    </div>
+
+     <div class="form-grup">
+      <label>Operando B</label>
+      <input
+        type="number"
+        class="form-control"
+        placeholder="Escribe operando B"
+        [(ngModel)]="operandoB"
+        name="operandoB"
+      />
+     </div>
+     <button type="submit" class="btn btn-primary mt-2"
+      (click)="onSumar()">Sumar</button>
+      <p>Resultado: {{resultado}}</p>
+  </form>
+
+</div>
