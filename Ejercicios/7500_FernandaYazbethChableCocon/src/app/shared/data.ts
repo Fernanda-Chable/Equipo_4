@@ -9,10 +9,16 @@ export interface ICliente{
     
 }
 
-export interface IReservas extends IModel{
+export interface IReservas {
+  id?: string; // Propiedad opcional
   description: string;
   date: string;
-  status: Date|string;
-
-  
+  status: string;
+  create_on?: Date; // Propiedad opcional
+  update_on?: Date; // Propiedad opcional
 }
+export interface Response {
+  Items: IReservas[]; // IReservas debe coincidir con la estructura de tus elementos
+}
+
+
