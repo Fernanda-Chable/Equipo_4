@@ -9,7 +9,7 @@ import {Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class ReservasService {
-  apiUrl="https://crudcrud.com/api/7b68a883927a4f9c9e5c843fd3bbcad2/Reservas ";
+  apiUrl="https://crudcrud.com/api/7b68a883927a4f9c9e5c843fd3bbcad2/Reservas";
   constructor(protected http:HttpClient){}
 
   list():Observable<Response>{
@@ -18,6 +18,9 @@ export class ReservasService {
   create(reserva: IReservas): Observable<IReservas> {
     return this.http.post<IReservas>(this.apiUrl, reserva);
   }
-  
+  getItems() {
+    return this.http.get('https://crudcrud.com/api/7b68a883927a4f9c9e5c843fd3bbcad2/Reservas');
+  }
+
 
 }
