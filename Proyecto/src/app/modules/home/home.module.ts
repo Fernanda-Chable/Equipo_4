@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { LocationComponent } from './location/location.component';
+import { BlogComponent } from './blog/blog.component';
+import { RepertorioComponent } from './repertorio/repertorio.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { ServiciosComponent } from './servicios/servicios.component';
     HeaderComponent,
     FooterComponent,
     CarouselComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    LocationComponent,
+    BlogComponent,
+    RepertorioComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +32,10 @@ import { ServiciosComponent } from './servicios/servicios.component';
     HeaderComponent,
     FooterComponent,
     CarouselComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    BlogComponent,
+    LocationComponent,
+    RepertorioComponent
   ]
 })
 export class HomeModule { }

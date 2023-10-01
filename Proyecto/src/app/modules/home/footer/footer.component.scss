@@ -14,6 +14,7 @@ h1 {
   }
 .clase-imagen {
     text-align: right; 
+    background-size: cover; 
     float: right; /* Alinea la imagen a la izquierda */
   width: 40px; /* Ancho deseado en píxeles */
   height: auto; /* Altura automática para mantener la proporción */
@@ -46,8 +47,15 @@ h1 {
   }
   
   .imagen {
+    background-size: cover; 
     max-width: 60px; /* Ancho máximo de la imagen (ajusta según tus necesidades) */
   height: auto; /* Altura automática para mantener la proporción */
   margin-right: 1px; /* Espacio entre la imagen y el texto (ajusta según tus necesidades) */
+}
+.social-icons{
+  text-align: right; /* Alineación del contenido */
+  color: black;
+  
+
 }
 
