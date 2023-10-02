@@ -10,6 +10,7 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { LocationComponent } from './location/location.component';
 import { BlogComponent } from './blog/blog.component';
 import { RepertorioComponent } from './repertorio/repertorio.component';
+import { VServiciosComponent } from './v-servicios/v-servicios.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RepertorioComponent } from './repertorio/repertorio.component';
     ServiciosComponent,
     LocationComponent,
     BlogComponent,
-    RepertorioComponent
+    RepertorioComponent,
+    VServiciosComponent
   ],
   imports: [
     CommonModule,
@@ -35,7 +37,8 @@ import { RepertorioComponent } from './repertorio/repertorio.component';
     ServiciosComponent,
     BlogComponent,
     LocationComponent,
-    RepertorioComponent
+    RepertorioComponent,
+    VServiciosComponent
   ]
 })
 export class HomeModule { }

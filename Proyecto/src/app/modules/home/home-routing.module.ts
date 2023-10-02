@@ -4,12 +4,15 @@ import { HomeComponent } from './home.component';
 import { BlogComponent } from './blog/blog.component';
 import { LocationComponent } from './location/location.component';
 import {RepertorioComponent} from './repertorio/repertorio.component';
+import {VServiciosComponent} from './v-servicios/v-servicios.component';
 
 const routes: Routes = [
   { path:"", component: HomeComponent},
   {path: "blog", component: BlogComponent},
   {path: "contacto", component: LocationComponent},
   {path: "repertorio", component: RepertorioComponent},
+  {path: "vServicio", component: VServiciosComponent},
+
 ];
 
 @NgModule({
