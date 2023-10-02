@@ -13,12 +13,12 @@ h1 {
     /* Otros estilos, como márgenes, espaciado, etc., según tus preferencias */
   }
 .clase-imagen {
-    text-align: right; 
+    text-align: left; 
     background-size: cover; 
     float: right; /* Alinea la imagen a la izquierda */
   width: 40px; /* Ancho deseado en píxeles */
   height: auto; /* Altura automática para mantener la proporción */
-  margin-right: 10px; /* Margen derecho de 30px (ajusta según tus necesidades) */
+  margin-left: 20px; /* Margen derecho de 30px (ajusta según tus necesidades) */
 }
   /* Estilos CSS para el contenedor del párrafo e imagen */
 .contenedor-parrafo-imagen {
@@ -53,7 +53,7 @@ h1 {
   margin-right: 1px; /* Espacio entre la imagen y el texto (ajusta según tus necesidades) */
 }
 .social-icons{
-  text-align: right; /* Alineación del contenido */
+  text-align: left; /* Alineación del contenido */
   color: black;
   
 

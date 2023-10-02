@@ -1,9 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Young+Serif&display=swap');
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Young Serif', serif;
+}
 /* Estilos personalizados para el componente */
 .custom-container {
     background-color: #f4f4f4;
     padding: 40px;
   }
+  
  
   .card {
     border: 1px solid #e0e0e0;
