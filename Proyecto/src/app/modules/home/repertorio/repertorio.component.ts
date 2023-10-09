@@ -32,21 +32,25 @@ export class RepertorioComponent {
     // Agrega más canciones aquí
   ];
   songs2: string[] = [
-    'Amigo Roberto Carlos',
-      'El Camino De La Vida',
-      'En Vida',
-      'En Tu Dia',
-      'Happy Birthday',
-      'La Nieve De Los Años',
-      'Los Caminos De La Vida',
-      'Nochecitas Mexicanas',
-      'Las Mañanitas Rey David',
-      'Las Mañanitas Mexicanas',
-      'Por Tu Cumpleaños',
-      'Sabes Una Cosa',
-      'En Tu Cumpleaños',
-      'Un Año Mas',
-
+    'Amigo',
+    'A Mis Amigos',
+    'Bohemio De Afición',
+    'Camino Al Cielo',
+    'Cuando Yo Quería Ser Grande',
+    'Dulce Hogar',
+    'El Aventurero',
+    'El Bravero',
+    'El Camino De La Vida',
+    'El Hijo Desobediente',
+    'El Hijo Del Pueblo',
+    'El Hombre Que Más Te Amo',
+    'El Rey',
+    'La Ley De La Vida',
+    'La Nieve De Los Años',
+    'Mi Querido Cascarrabias',
+    'Mi Querido Mi Viejo Mi Amigo',
+    'Mi Vejez',
+    'Mi Viejo',
 
     // Agrega más canciones aquí
   ];
