@@ -6,6 +6,98 @@ import { Component } from '@angular/core';
   styleUrls: ['./repertorio.component.scss']
 })
 export class RepertorioComponent {
+  searchText: string = '';
+  songs: string[] = [
+    'A La Sombra De Mamá',
+    'Abuela',
+    'A Esa Mujer',
+    'Amor Eterno',
+    'Aunque No Sea Mayo',
+    'Clavitos con Amor',
+    'Canto A la madre',
+    'Dulce Hogar',
+    'Entre El Amor Y YO',
+    'Es La Mujer',
+    'El Camino De La Vida',
+    'Es Mi Madre',
+    'En mi vida',
+    'Los Caminos De La Vida',
+    'La Nieve De Los Años',
+    'Mama',
+    'Motivos',
+    'Madrecita Ideal',
+    'Mama Vieja',
+    'Madre del Corazon'
+
+    // Agrega más canciones aquí
+  ];
+  songs2: string[] = [
+    'Amigo Roberto Carlos',
+      'El Camino De La Vida',
+      'En Vida',
+      'En Tu Dia',
+      'Happy Birthday',
+      'La Nieve De Los Años',
+      'Los Caminos De La Vida',
+      'Nochecitas Mexicanas',
+      'Las Mañanitas Rey David',
+      'Las Mañanitas Mexicanas',
+      'Por Tu Cumpleaños',
+      'Sabes Una Cosa',
+      'En Tu Cumpleaños',
+      'Un Año Mas',
+
+
+    // Agrega más canciones aquí
+  ];
+  songs3: string[] = [
+    'A pesar de Todo',
+    'Abrázame Muy Fuerte',
+    'Contigo Aprendi',
+    'Cielito Lindo',
+    'Como Han Pasado Los Años',
+    'Como Un Rey',
+    'Deja Que Salga La Luna',
+    'De Que Te Quiero Te Quiero',
+    'Dime A Que Santo Le Rezas',
+    'Dulce Hogar',
+    'En Tu Pelo',
+    'Entrega Total',
+    'Entre El Amor y Yo',
+    'Esclavo Y Amo',
+    'Es La Mujer',
+    'Embrujo',
+    'Escándalo',
+    'Estos Celos',
+    'Gema',
+    'He Sabido Que Te Amaba',
+    'Hermoso Cariño',
+    'Loco',
+    'La Mitad Que Me Faltaba',
+  ];
+  songs4: string[] = [
+    'La Mano de Dios',
+    'Las Llaves De Mi Alma',
+    'La Venia Bendita',
+    'Madrigal',
+    'Mi Forma de Sentir',
+    'Mujeres Divinas',
+    'Malagueña',
+    'Más Que Tu Amigo',
+    'Mátalas',
+    'Motivos',
+    'Nuestro Juramento',
+    'Nos Estorbo La Ropa',
+    'Novia Mia',
+    'Obsesion',
+    'Para Siempre',
+    'Piel De Niña',
+    'Paloma Querida',
+    'Parece Que Fue Ayer',
+    'Toda Una Vida',
+    'Paso a La Reina',
+    'Que Se Mueran De Envidia',
+  ];
   isListExpanded: boolean = true;
   isListExpanded1: boolean = true;
   isListExpanded2: boolean = false;

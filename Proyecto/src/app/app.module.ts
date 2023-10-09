@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './modules/home/home.component';
 import { HomeModule } from './modules/home/home.module';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,

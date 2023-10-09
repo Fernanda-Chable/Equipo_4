@@ -91,161 +91,92 @@
     </button>
     
   </div>
-  <div class="container">
-    <div class="row">
-      <!-- Contenedor de Lista 1 -->
-      <div class="col-md-6">
-        <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded}">
-          <div id="elementor-tab-title-1" class="elementor-tab-title" data-tab="1" role="button" tabindex="0" (click)="toggleList1()">
-            <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-              <span class="arrow" [ngClass]="{'expanded': isListExpanded}"></span>
-            <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
-          <div id="elementor-tab-content-1" class="elementor-tab-content">
-            <!-- Contenido de la Lista 1 -->
-            <ul *ngIf="isListExpanded" class="elementor-tab-content">
-        <li>A La Sombra De Mamá</li>
-        <li>Abuela</li>
-        <li>A Esa Mujer</li>
-        <li>Amor Eterno</li>
-        <li>Aunque No Sea Mayo</li>
-        <li>Clavelitos con Amor</li>
-        <li>Canto A La Madre</li>
-        <li>Dulce Hogar</li>
-        <li>Entre El Amor Y YO</li>
-        <li>Es La Mujer</li>
-        <li>El Camino De La Vida</li>
-        <li>Es Mi Madre</li>
-        <li>En Vida</li>
-        <li>Los Caminos De La Vida</li>
-        <li>La Nieve De Los Años</li>
-        <li>Mamá</li><li>Motivos</li>
-        <li>Madrecita Ideal</li>
-        <li>Mamá Vieja</li>
-        <li>Madre Del Corazón</li>
-      </ul>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  
-  
-  
-  
-     <!-- Lista desplegable 2 -->
-     <div class="col-md-6">
-    <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded1}">
-      <div id="elementor-tab-title-2" class="elementor-tab-title" data-tab="2" role="button" tabindex="0" (click)="toggleList2()">
-        <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-          <span class="arrow" [ngClass]="{'expanded': isListExpanded1}"></span>
-        <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
-      <div id="elementor-tab-content-2" class="elementor-tab-content">
-        <!-- Contenido de la lista 2 -->
-        <ul *ngIf="isListExpanded1" class="elementor-tab-content">
-        <li>Amigo Roberto Carlos</li>
-        <li>El Camino De La Vida</li>
-        <li>En Vida</li><li>En Tu Día</li>
-        <li>Happy Birthday</li>
-        <li>La Nieve De Los Años</li>
-        <li>Los Caminos De La Vida</li>
-        <li>Nochecitas Mexicanas</li>
-        <li>Las Mañanitas Rey David</li>
-        <li>Las Mañanitas Mexicanas</li>
-        <li>Por Tu Cumpleaños</li>
-        <li>Sabes Una Cosa</li>
-        <li>En Tu Cumpleaños</li>
-        <li>Un Año Más</li>
-      </ul>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  
-  
-  
-   <!-- Lista desplegable 3 -->
-   <div class="row">
+
+  <input type="text" [(ngModel)]="searchText" placeholder="Buscar canciones">
+<div class="container">
+  <div class="row">
+    <!-- Contenedor de Lista 1 -->
     <div class="col-md-6">
-   <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded2}">
-    <div id="elementor-tab-title-3" class="elementor-tab-title" data-tab="3" role="button" tabindex="0" (click)="toggleList3()">
+      <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded}">
+        <div id="elementor-tab-title-1" class="elementor-tab-title" data-tab="1" role="button" tabindex="0" (click)="toggleList1()">
+          <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+            <span class="arrow" [ngClass]="{'expanded': isListExpanded}"></span>
+          <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
+        <div id="elementor-tab-content-1" class="elementor-tab-content">
+          <!-- Contenido de la Lista 1 -->
+          <ul *ngIf="isListExpanded" class="elementor-tab-content">
+            <li *ngFor="let song of songs | filter: searchText">{{ song }}</li>   
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+   <!-- Lista desplegable 2 -->
+   <div class="col-md-6">
+  <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded1}">
+    <div id="elementor-tab-title-2" class="elementor-tab-title" data-tab="2" role="button" tabindex="0" (click)="toggleList2()">
       <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-        <span class="arrow" [ngClass]="{'expanded': isListExpanded2}"></span>
+        <span class="arrow" [ngClass]="{'expanded': isListExpanded1}"></span>
       <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
-    <div id="elementor-tab-content-3" class="elementor-tab-content">
-      <!-- Contenido de la lista 3 -->
-      <ul *ngIf="isListExpanded2" class="elementor-tab-content">
-        <li>A pesar de Todo</li>
-        <li>Abrázame Muy Fuerte</li>
-        <li>Contigo Aprendí</li>
-        <li>Cielito Lindo</li>
-        <li>Como Han Pasado Los Años</li>
-        <li>Como Un Rey</li>
-        <li>Deja Que Salga La Luna</li>
-        <li>De Que Te Quiero Te Quiero</li>
-        <li>Dime A Que Santo Le Rezas</li>
-        <li>Dulce Hogar</li>
-        <li>En Tu Pelo</li>
-        <li>Entrega Total</li>
-        <li>Entre El Amor y Yo</li>
-        <li>Esclavo Y Amo</li>
-        <li>Es La Mujer</li>
-        <li>Embrujo</li>
-        <li>Escándalo</li>
-        <li>Estos Celos</li>
-        <li>Gema</li>
-        <li>He Sabido Que Te Amaba</li>
-        <li>Hermoso Cariño</li>
-        <li>Loco</li>
-        <li>La Mitad Que Me Faltaba</li>
-      </ul>
-    </div>
+    <div id="elementor-tab-content-2" class="elementor-tab-content">
+      <!-- Contenido de la lista 2 -->
+      <ul *ngIf="isListExpanded1" class="elementor-tab-content">
+        <li *ngFor="let song2 of songs2 | filter: searchText">{{ song2 }}</li>  
+        
+    </ul>
   </div>
-  </div>
-  </div>
-  </div>
-  
-  
-  
-  <!-- Lista desplegable 4 -->
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+ <!-- Lista desplegable 3 -->
+ <div class="row">
   <div class="col-md-6">
-  <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded3}">
-    <div id="elementor-tab-title-4" class="elementor-tab-title" data-tab="4" role="button" tabindex="0" (click)="toggleList4()">
-      <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-        <span class="arrow" [ngClass]="{'expanded': isListExpanded3}"></span>
-      <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
-    <div id="elementor-tab-content-4" class="elementor-tab-content">
-      <!-- Contenido de la lista 4 -->
-      <ul *ngIf="isListExpanded3" class="elementor-tab-content">
-        <li>La Mano de Dios</li>
-        <li>Las Llaves De Mi Alma</li>
-        <li>La Venia Bendita</li>
-        <li>Madrigal</li>
-        <li>Mi Forma de Sentir</li>
-        <li>Mujeres Divinas</li>
-        <li>Malagueña</li>
-        <li>Más Que Tu Amigo</li>
-        <li>Mátalas</li>
-        <li>Motivos</li>
-        <li>Nuestro Juramento</li>
-        <li>Nos Estorbo La Ropa</li>
-        <li>Novia Mía</li>
-        <li>Obsesion</li>
-        <li>Para Siempre</li>
-        <li>Piel De Niña</li>
-        <li>Paloma Querida</li>
-        <li>Parece Que Fue Ayer</li>
-        <li>Toda Una Vida</li>
-        <li>Paso a La Reina</li>
-        <li>Que Se Mueran De Envidia</li>
-      </ul>
-    </div>
+ <div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded2}">
+  <div id="elementor-tab-title-3" class="elementor-tab-title" data-tab="3" role="button" tabindex="0" (click)="toggleList3()">
+    <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+      <span class="arrow" [ngClass]="{'expanded': isListExpanded2}"></span>
+    <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
+  <div id="elementor-tab-content-3" class="elementor-tab-content">
+    <!-- Contenido de la lista 3 -->
+    <ul *ngIf="isListExpanded2" class="elementor-tab-content">
+      <li *ngFor="let song3 of songs3 | filter: searchText">{{ song3 }}</li>
+      
+    </ul>
   </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- Lista desplegable 4 -->
+<div class="col-md-6">
+<div class="elementor-accordion-item" [ngClass]="{'active': isListExpanded3}">
+  <div id="elementor-tab-title-4" class="elementor-tab-title" data-tab="4" role="button" tabindex="0" (click)="toggleList4()">
+    <div class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+      <span class="arrow" [ngClass]="{'expanded': isListExpanded3}"></span>
+    <a class="elementor-accordion-title" tabindex="0">Lista 1</a>
+  <div id="elementor-tab-content-4" class="elementor-tab-content">
+    <!-- Contenido de la lista 4 -->
+    <ul *ngIf="isListExpanded3" class="elementor-tab-content">
+      <li *ngFor="let song4 of songs4 | filter: searchText">{{ song4 }}</li>
+    </ul>
   </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  <app-footer></app-footer>
-  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<app-footer></app-footer>
