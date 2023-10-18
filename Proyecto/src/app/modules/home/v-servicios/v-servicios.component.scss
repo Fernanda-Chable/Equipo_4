@@ -3,54 +3,41 @@
     font-family: 'Libre Baskerville', serif;
     font-family: 'Young Serif', serif;
 }
-.modal-body {
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
 
-  /* Estilos para la lista de precios */
-  h1 {
-    text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
-  }
+/* alineaciones del contenedor y cards */
 
- 
+.card-img{
+  width: 25rem; /* Ancho del 100% para que todas las imágenes tengan el mismo ancho */
+  height: 18rem; /* Altura del 100% para que todas las imágenes tengan el mismo alto */
+  object-fit: cover; /* Escalar y recortar la imagen para que quepa en el espacio sin distorsión */
+}
+.card-container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Divide el contenedor en 3 columnas iguales */
+  grid-gap: 10px; /* Espacio entre los cards */
+}
 
-  table {
-    width: 99%;
-    border-collapse: collapse;
-  }
+.card {
+  width: 100%; /* Cada card ocupa el 100% del ancho de su celda */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Estilos generales de los cards */
+}
 
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
 
-  th {
-    background-color: #333;
-    color: white;
-  }
-  
+.left-card {
+  align-self: flex-start; /* Alinea el card izquierdo en la parte superior */
+  /* Estilos específicos del card izquierdo */
+}
 
-  tr.table-active {
-    background-color: #f2f2f2;
-  }
- /* .content {
-    display: flex;
-    align-items: flex-start;
-  }
+.center-card {
+  align-self: center; /* Alinea el card central en el centro vertical */
+  /* Estilos específicos del card central */
+}
 
-  .image-container {
-    flex: 1;
-    text-align: right;
-  }
-
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-    width: 200px; /* Ancho deseado para la imagen */
-   // height: 200px; /* Alto deseado para la imagen */
- // }
+.right-card {
+  align-self: flex-end; /* Alinea el card derecho en la parte inferior */
+  /* Estilos específicos del card derecho */
+}
