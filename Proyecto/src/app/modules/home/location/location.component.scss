@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Young+Serif&display=swap');
+
 
 .maps{
     width: 700px;
@@ -52,16 +54,20 @@
   }
 
   /* Estilos para el contenedor principal */
-.custom-container-principal {
-  margin-top: 100px; /* Ajusta la separación deseada desde la parte superior del navbar */
-}
+  .custom-container-principal {
+    margin-top: 100px; /* Ajusta la separación deseada desde la parte superior del navbar */
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Young Serif', serif;
+  }
 
   /* Configura el contenedor para ocupar todo el alto de la pantalla */
   .alto {
     height: 350px; /* 100% del alto de la ventana */
   }
 
-
+  .altura {
+    height: 90vh; /* 100% del alto de la ventana */
+  }
 
   .fondo-imagen {
     background-image: url('/assets/Image/MHalacho02.jpeg'); /* Ruta de la imagen de fondo */
