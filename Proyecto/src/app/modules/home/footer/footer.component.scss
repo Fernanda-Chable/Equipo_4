@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inclusive+Sans&display=swap');
 
 * {
@@ -6,9 +7,14 @@
   font-size: 18px;
 }
 
+.footer-with-top-margin {
+  margin-top: 60px; /* Ajusta el valor según tus necesidades para crear la separación deseada en la parte superior del footer */
+}
+
 
 .logo-link {
   text-decoration: none; /* Elimina el subrayado del enlace */
+  margin-top: 50px; /* Ajusta el valor según tus preferencias */
 }
 
 .logo-text {
@@ -30,6 +36,7 @@
 
 .social-icons ul li {
   margin: 0 10px; /* Espaciado entre los iconos */
+  margin-bottom: 50px; /* Ajusta el valor según tus preferencias */
 }
 
 .contenedor-imagenes {
@@ -41,3 +48,4 @@
   max-width: 80px; /* Tamaño máximo de las imágenes */
   margin: 10px; /* Espacio entre las imágenes */
 }
+
