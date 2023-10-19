@@ -12,7 +12,6 @@
     object-fit: cover; /* Escalar y recortar la imagen para que quepa en el espacio sin distorsión */
   }
   .card-container {
-    margin: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Divide el contenedor en 3 columnas iguales */
     grid-gap: 10px; /* Espacio entre los cards */
