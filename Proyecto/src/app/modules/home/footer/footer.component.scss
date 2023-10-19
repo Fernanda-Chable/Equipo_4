@@ -1,61 +1,43 @@
-.bg-blue {
-  background-color: white;
 
-  /* Puedes ajustar el color de fondo según tus preferencias */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inclusive+Sans&display=swap');
+
+* {
+  font-family: Georgia, Round, Bold, italic;
+  font-size: 18px;
 }
 
-h1 {
-    color: black; /* Color del texto (puedes utilizar un color personalizado) */
-    font-family: Georgia, Round, Bold, italic; /* Fuente del texto */
-    font-size: 29px; /* Tamaño de fuente en píxeles */
-    font-weight: bold; /* Peso de la fuente (negrita) */
-    text-align: center; /* Alineación del texto (centro) */
-    /* Otros estilos, como márgenes, espaciado, etc., según tus preferencias */
-  }
-.clase-imagen {
-    text-align: left; 
-    background-size: cover; 
-    float: right; /* Alinea la imagen a la izquierda */
-  width: 40px; /* Ancho deseado en píxeles */
-  height: auto; /* Altura automática para mantener la proporción */
-  margin-left: 20px; /* Margen derecho de 30px (ajusta según tus necesidades) */
-}
-  /* Estilos CSS para el contenedor del párrafo e imagen */
-.contenedor-parrafo-imagen {
-    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
-    align-items: center; /* Centra verticalmente los elementos */
-    color: black; /* Color del texto (puedes utilizar un color personalizado) */
-    font-family: Georgia, Round, Bold, italic; /* Fuente del texto */
-    font-size: 20px; /* Tamaño de fuente en píxeles */
-  }
-  
-  .texto-parrfo {
-    flex: 1; /* El párrafo ocupa el espacio restante en el contenedor */
-    margin-right: 6px; /* Espacio entre el párrafo y la imagen (ajusta según tus necesidades) */
-    color: black; /* Color del texto (puedes utilizar un color personalizado) */
-    font-family: Georgia, Round, Bold, italic;/* Fuente del texto */
-    font-size: 20px; /* Tamaño de fuente en píxeles */
-    
-  }
-  .texto-parrfo2 {
-    flex: 1; /* El párrafo ocupa el espacio restante en el contenedor */
-    margin-right: 5px; /* Espacio entre el párrafo y la imagen (ajusta según tus necesidades) */
-    text-align: right; /* Alinea el texto a la derecha */
-    color: black; /* Color del texto (puedes utilizar un color personalizado) */
-    font-family: Georgia, Round, Bold, italic;/* Fuente del texto */
-    font-size: 20px; /* Tamaño de fuente en píxeles */
-  }
-  
-  .imagen {
-    background-size: cover; 
-    max-width: 60px; /* Ancho máximo de la imagen (ajusta según tus necesidades) */
-  height: auto; /* Altura automática para mantener la proporción */
-  margin-right: 1px; /* Espacio entre la imagen y el texto (ajusta según tus necesidades) */
-}
-.social-icons{
-  text-align: left; /* Alineación del contenido */
-  color: black;
-  
 
+.logo-link {
+  text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
+.logo-text {
+  margin-left: 10px; /* Ajusta el margen izquierdo según tus preferencias */
+}
+
+.horizontal-list {
+  display: flex; /* Hace que los elementos de la lista se muestren en línea horizontalmente */
+  justify-content: space-between; /* Espacia los elementos uniformemente en la fila */
+  list-style: none; /* Elimina los puntos de lista predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+
+.social-line {
+  border-top: 2px solid #ffffff; /* Estilo de línea de adorno */
+  margin-top: 5px; /* Espaciado entre el texto y la línea */
+}
+
+.social-icons ul li {
+  margin: 0 10px; /* Espaciado entre los iconos */
+}
+
+.contenedor-imagenes {
+  text-align: center; /* Centra las imágenes horizontalmente */
+  margin-top: 10px; /* Espacio entre el texto y las imágenes */
+}
+
+.imagen {
+  max-width: 80px; /* Tamaño máximo de las imágenes */
+  margin: 10px; /* Espacio entre las imágenes */
+}
