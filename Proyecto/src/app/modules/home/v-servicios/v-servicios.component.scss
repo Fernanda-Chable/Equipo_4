@@ -3,6 +3,12 @@
     font-family: 'Libre Baskerville', serif;
     font-family: 'Young Serif', serif;
 }
+
+.contenido-body {
+  margin-top: 135px; /* Ajusta la separación deseada desde la parte superior del navbar */
+}
+
+
 .modal-body {
     background-color: white;
     padding: 20px;
@@ -17,7 +23,7 @@
     margin-top: 20px;
   }
 
- 
+
 
   table {
     width: 99%;
@@ -33,7 +39,7 @@
     background-color: #333;
     color: white;
   }
-  
+
 
   tr.table-active {
     background-color: #f2f2f2;
