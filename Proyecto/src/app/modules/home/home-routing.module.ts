@@ -7,7 +7,7 @@ import {RepertorioComponent} from './repertorio/repertorio.component';
 import {VServiciosComponent} from './v-servicios/v-servicios.component';
 
 const routes: Routes = [
-  { path:"", component: HomeComponent},
+  {path:"", component: HomeComponent},
   {path: "blog", component: BlogComponent},
   {path: "contacto", component: LocationComponent},
   {path: "repertorio", component: RepertorioComponent},
