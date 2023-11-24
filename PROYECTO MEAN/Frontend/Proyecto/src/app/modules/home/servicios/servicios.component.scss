@@ -1,0 +1,69 @@
+
+.display-4{
+    color: black; /* Cambia el color a tu preferencia */
+  font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+  font-size: 40px; /* Cambia el tamaño a tu preferencia */
+  text-align: center; /* Alinea el título al centro */
+  margin-top: 20px; /* Espaciado superior */
+
+}
+.lista-con-imagenes .parrafo-izquierda {
+    text-align: left; /* Alineación a la izquierda */
+    font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+      font-size: 25px; /* Cambia el tamaño a tu preferencia */
+  }
+
+  .lista-con-imagenes .parrafo-centro {
+    text-align: center; /* Alineación al centro */
+    font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+      font-size: 25px; /* Cambia el tamaño a tu preferencia */
+
+  }
+
+  .lista-con-imagenes .parrafo-derecha {
+    text-align: right; /* Alineación a la derecha */
+    font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+      font-size: 25px; /* Cambia el tamaño a tu preferencia */
+  }
+  .lista-con-imagenes2 .parrafo-izquierda {
+    text-align: right;
+    font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+      font-size: 25px; /* Cambia el tamaño a tu preferencia */
+  }
+
+
+  .lista-con-imagenes2 .parrafo-centro {
+    text-align: center;
+    font-family: Georgia, Round, Bold, italic; /* Cambia la tipografía a tu preferencia */
+      font-size: 25px; /* Cambia el tamaño a tu preferencia */
+  }
+
+  .lista-con-imagenes2 .parrafo-derecha {
+    text-align: left; /* Alineación a la derecha */
+    font-family: Georgia, Round, Bold, italic;/* Cambia la tipografía a tu preferencia */
+      font-size: 25px; /* Cambia el tamaño a tu preferencia */
+  }
+  .lista-con-imagenes img.imagen-pequena {
+    width: 100px; /* Ancho deseado en píxeles */
+    height: 100px; /* Altura automática para mantener la proporción */
+  }
+  .lista-con-imagenes2 img.imagen-mediana {
+    width: 100px; /* Ancho deseado en píxeles */
+    height: 100px; /* Altura automática para mantener la proporción */
+  }
+
+  .imagen-principal {
+    border: 4px solid #333; /* Borde de 2 píxeles sólidos de color gris (#333) */
+    width: 100%; /* Ancho al 100% del contenedor */
+    max-width: 300px; /* Ancho máximo de 300 píxeles (ajusta según tus necesidades) */
+    height: auto; /* Altura automática para mantener la proporción */
+    text-align: center;
+    border-radius: 10px;
+  }
+  .btn {
+    color: black; /* Cambia el color del texto */
+    font-size: 22px; /* Cambia el tamaño del texto */
+    padding: 10px 20px; /* Ajusta el espaciado interior */
+    border: 3px solid #333;
+  }
+
