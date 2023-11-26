@@ -1,0 +1,53 @@
+.bg-blue {
+  background-color: white;
+
+  /* Puedes ajustar el color de fondo según tus preferencias */
+}
+
+h1 {
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
+    font-family: Georgia, Round, Bold, italic; /* Fuente del texto */
+    font-size: 29px; /* Tamaño de fuente en píxeles */
+    font-weight: bold; /* Peso de la fuente (negrita) */
+    text-align: center; /* Alineación del texto (centro) */
+    /* Otros estilos, como márgenes, espaciado, etc., según tus preferencias */
+  }
+.clase-imagen {
+    text-align: right; 
+    float: right; /* Alinea la imagen a la izquierda */
+  width: 40px; /* Ancho deseado en píxeles */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 10px; /* Margen derecho de 30px (ajusta según tus necesidades) */
+}
+  /* Estilos CSS para el contenedor del párrafo e imagen */
+.contenedor-parrafo-imagen {
+    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
+    font-family: Georgia, Round, Bold, italic; /* Fuente del texto */
+    font-size: 20px; /* Tamaño de fuente en píxeles */
+  }
+  
+  .texto-parrfo {
+    flex: 1; /* El párrafo ocupa el espacio restante en el contenedor */
+    margin-right: 6px; /* Espacio entre el párrafo y la imagen (ajusta según tus necesidades) */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
+    font-family: Georgia, Round, Bold, italic;/* Fuente del texto */
+    font-size: 20px; /* Tamaño de fuente en píxeles */
+    
+  }
+  .texto-parrfo2 {
+    flex: 1; /* El párrafo ocupa el espacio restante en el contenedor */
+    margin-right: 5px; /* Espacio entre el párrafo y la imagen (ajusta según tus necesidades) */
+    text-align: right; /* Alinea el texto a la derecha */
+    color: black; /* Color del texto (puedes utilizar un color personalizado) */
+    font-family: Georgia, Round, Bold, italic;/* Fuente del texto */
+    font-size: 20px; /* Tamaño de fuente en píxeles */
+  }
+  
+  .imagen {
+    max-width: 60px; /* Ancho máximo de la imagen (ajusta según tus necesidades) */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 1px; /* Espacio entre la imagen y el texto (ajusta según tus necesidades) */
+}
+

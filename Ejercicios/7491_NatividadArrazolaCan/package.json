@@ -1,5 +1,5 @@
 {
-  "name": "practica2",
+  "name": "7491-natividad-arrazola-can",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,7 +19,7 @@
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.1",
+    "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
