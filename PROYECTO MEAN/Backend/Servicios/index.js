@@ -16,6 +16,7 @@ app.use('/api/reservas', require('./routes/reserva'));
 app.use('/api/comentarios', require('./routes/comentario'));
 app.use('/api/dashboard', require('./routes/dashboard'));
 app.use('/api/dashboard', dashboardRouter);
+
 app.listen(4000, () => {
     console.log('El servidor esta corriendo perfectamente')
 })
