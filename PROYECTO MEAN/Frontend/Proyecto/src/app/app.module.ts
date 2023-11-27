@@ -18,9 +18,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 //Componentes para cargar pagina del crud
 import { CrearReservaComponent } from './pages/crear-reserva/crear-reserva.component';
-import { ListarReservaComponent } from './admin/pages/listar-reserva/listar-reserva.component';
-import { ComentarioComponent } from './pages/comentario/comentario.component';
-import { ListarComentarioComponent } from './pages/listar-comentario/listar-comentario.component';
 
 //Componentes del pages
 import { LocationComponent } from './pages/location/location.component';
@@ -36,17 +33,19 @@ import { BodyComponent } from './admin/layout/body/body.component';
 import { PagesAdminModule } from './admin/pages/pages-admin.module';
 import { PagesModule } from './pages/pages.module';
 import { DashboardService } from './services/dashboard.service';
+import { LoginComponent } from './pages/login/login.component';
+import { SignInComponent } from './pages/sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent, 
+    FooterComponent,
     InicioComponent,
     //Componentes para cargar pagina del crud
     CrearReservaComponent,
-   
-    
+
+
     //Componentes para el pages
     LocationComponent,
     BlogComponent,
@@ -54,32 +53,36 @@ import { DashboardService } from './services/dashboard.service';
     VServiciosComponent,
     FilterPipe,
     HomeComponent,
-   
+
     //componentes para el administrador
     InicioAdminComponent,
     MenuComponent,
     BodyComponent,
-   
-   
+
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-   PagesAdminModule,
-   PagesModule,
+    PagesAdminModule,
+    PagesModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot(),
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      positionClass: 'toast-bottom-right',
+      preventDuplicates: true,
+    }),
     HttpClientModule
   ],
 
   exports: [
     //Prueba para cargar pagina del crud
     CrearReservaComponent,
-    
-  
+    LoginComponent,
+    SignInComponent
   ],
 
   providers: [DashboardService,],
